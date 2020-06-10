@@ -61,15 +61,15 @@ func main() {
 	defaultConfig.Inject = libinject.DefaultConfig
 	defaultConfig.Inject.Type = 2
 	defaultConfig.Inject.Rules = map[string][]string{
-		"akamai.net:80": []string{
-			"video.iflix.com",
-			"videocdn-2.iflix.com",
-			"iflix-videocdn-p1.akamaized.net",
-			"iflix-videocdn-p2.akamaized.net",
-			"iflix-videocdn-p3.akamaized.net",
-			"iflix-videocdn-p6.akamaized.net",
-			"iflix-videocdn-p7.akamaized.net",
-			"iflix-videocdn-p8.akamaized.net",
+		"igamecj.akamaized.net:443": []string{
+			"pay.igamecj.akamaized.net",
+			"scrlw1.hbogo.eu",
+			"www.scrlw1.hbogo.eu",
+			"pubgmobile.com",
+			"v.whatsapp.net",
+			"m.twitter.com",
+			"filecdn.igamecj.com.com",
+			"m.video.com",
 		},
 	}
 	defaultConfig.Inject.Payload = ""
